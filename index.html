@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Agenda.</title>
+</head>
+
+<body>
+    <main>
+        <section class="home">
+            <img class="profile" src="https://randomuser.me/api/portraits/lego/5.jpg"/>
+            <div class="home__info">
+                <strong>Ei, você!</strong>
+                <p>Três atendimentos na agenda.</p>
+            </div>
+        </section>
+
+        <section class="atendimentos">
+            <div class="atendimentos__data">
+                <strong>Hoje</strong>
+            </div>
+            <ul>
+                <li>
+                    <div class="atendimento__card">
+                        <div class="atendimento__card-titulo">
+                            <div class="atendimento__card-paciente">
+                                <img class="profile" src="https://randomuser.me/api/portraits/lego/4.jpg"/>
+                                <div>
+                                    <strong>Cliente 1</strong>
+                                    <span>
+                                        <span aria-hidden="true" class="camera"></span>
+                                        Atendimento remoto.
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="atendimento_card-chat"></button>
+                        </div>
+                        <div class="atendimento__card-conteudo">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="atendimento__card-acoes">
+                                <button class="btn-secundario">Ligar por vídeo</button>
+                                <button class="btn-terciario">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="atendimento__card">
+                        <div class="atendimento__card-titulo">
+                            <div class="atendimento__card-paciente">
+                                <img class="profile" src="https://randomuser.me/api/portraits/lego/1.jpg"/>
+                                <div>
+                                    <strong>Cliente 2</strong>
+                                    <span>
+                                        <span aria-hidden="true" class="mapa"></span>
+                                        Consulta no local.
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="atendimento_card-chat"></button>
+                        </div>
+                        <div class="atendimento__card-conteudo">
+                            <p>16:00 - 17:00 (1 hora)</p>
+                            <div class="atendimento__card-acoes">
+                                <button class="btn-primario">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="atendimento__card">
+                        <div class="atendimento__card-titulo">
+                            <div class="atendimento__card-paciente">
+                                <img class="profile" src="https://randomuser.me/api/portraits/lego/7.jpg"/>
+                                <div>
+                                    <strong>Cliente 3</strong>
+                                    <span>
+                                        <span aria-hidden="true" class="camera"></span>
+                                        Atendimento remoto.
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="atendimento_card-chat"></button>
+                        </div>
+                        <div class="atendimento__card-conteudo">
+                            <p>17:20 - 18:00 (40 minutos)</p>
+                            <div class="atendimento__card-acoes">
+                                <button class="btn-secundario">Ligar por vídeo</button>
+                                <button class="btn-terciario">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="rodape">
+            <nav>
+                <ul>
+                    <li class="rodape__acao">
+                        <span class="atendimentos-icone"></span>
+                        Atendimentos
+                    </li>
+
+                    <li class="rodape__acao">
+                        <span class="clientes-icone"></span>
+                        Clientes
+                    </li>
+
+                    <li class="rodape__acao">
+                        <span class="relatorios-icone"></span>
+                        Relatórios
+                    </li>
+
+                    <li class="rodape__acao">
+                        <span class="menu-icone"></span>
+                        Menu
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="botao__flutuante">
+            <button class="botao__flutuante-cadastro btn-primario">
+                <span></span>
+            </button>
+
+            <ul>
+                <li>
+                    <span>
+                        Novo atendimento na casa do cliente.
+                    </span>
+
+                    <button class="botao__flutuante-item btn-primario local">
+                        <span class="local"></span>
+                    </button>
+                </li>
+
+                <li>
+                    <span>
+                        Novo atendimento por vídeo.
+                    </span>
+
+                    <button class="botao__flutuante-item btn-primario">
+                        <span class="remoto"></span>
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>

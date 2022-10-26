@@ -1,0 +1,37 @@
+.btn-primario {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: var(--cor-primaria);
+    color: var(--branco);
+    transition: .5s;
+}
+
+.btn-primario:hover{
+    background: #bdd5f8;
+    transition: .5s;
+}
+
+.btn-secundario {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: var(--cor-secundaria);
+    color: var(--branco);
+    transition: .5s;
+}
+
+.btn-secundario:hover{
+    background:#f8d5a9;
+    transition: .5s;
+}
+
+.btn-terciario {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid var(--cinza);
+    background: var(--branco);
+    transition: .5s;
+}
+
+.btn-terciario:hover {
+    background: rgb(98, 185, 247);
+    transition: .5s;
+}
